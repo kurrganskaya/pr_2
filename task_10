@@ -1,0 +1,4 @@
+//Задача 10. Показать вторую цифру трезначного числа
+Console.WriteLine("Введите трехзначное число: ") ;
+string a = Console.ReadLine();
+Console.WriteLine("Вторая цифра: " + a[1]);
