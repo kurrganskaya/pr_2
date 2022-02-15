@@ -1,0 +1,27 @@
+// Задача 14: Найти третью цифру числа или сообщить, что её нет.
+
+int ThirdNumber(int number)
+{
+    int result = number % 10;
+
+    return result;
+}
+
+Console.Write("Введите число: ") ;
+
+int num = int.Parse(Console.ReadLine()) ;
+
+if (num < 99)
+{
+   Console.WriteLine("Третья цифра отсутствует. Введите трехзначное число"); 
+}
+else if (num > 999)
+{
+
+    Console.WriteLine("Третья цифра: " + (num/10%10));
+
+}
+else
+{
+    Console.WriteLine("Третья цифра: " + ThirdNumber(num));
+}
