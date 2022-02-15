@@ -1,0 +1,4 @@
+//Задача 12: Удалить вторую цифру трёхзначного числа.
+Console.WriteLine("Введите трехзначное число: ") ;
+string a = Console.ReadLine();
+Console.WriteLine("Новое число: " + a[0] + a[2]);
